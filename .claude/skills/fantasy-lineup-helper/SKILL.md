@@ -26,7 +26,7 @@ For each player who could plausibly start, use web search to gather:
 - Current injury status / practice participation this week
 - Recent performance trend (last 3-4 games, not just season average)
 - This week's matchup: opposing defense rank vs. that position
-- Target share / snap count trend (usage is often more predictive than box score stats)
+- **Snap share / target share trend, and injuries to teammates at the same position** — treat a real role change (e.g., snap % jumping game-over-game, a target-competitor landing on IR or getting hurt mid-game) as strong signal that can outweigh matchup tier or a season-long projection. A player whose role is visibly expanding right now is often a better bet than a proven matchup alone would suggest — don't just log usage as color, let it move the actual recommendation.
 - Weather forecast for game time (temp, wind, precipitation) — flag if severe, since heavy wind especially affects passing/kicking games
 - Home vs. away, and for away games, time zone shift the player's team is dealing with
 - Vegas game total / point spread for the matchup — a game expected to be high-scoring or where a team is trailing big tends to shift volume (e.g., trailing teams pass more)
@@ -53,7 +53,19 @@ For each start/sit decision:
 Then:
 - **Waiver wire suggestions**: 2-4 available players worth considering, with brief reasoning, prioritized by immediate impact this week
 
+### Flagging an actionable change
+Whenever a recommendation requires the user to actually do something (swap a starter, submit a waiver claim, act before a lock), never bury it inside a paragraph of reasoning. Lead with an unmissable block, then explain briefly after:
+
+🚨 **DO THIS BEFORE [deadline — e.g. "TONIGHT'S KICKOFF" or "SUNDAY 1:00 PM"]:**
+**START:** [player]
+**BENCH:** [player]
+[One line on why, plus the exact lock time]
+
+If the situation is still developing (e.g. a questionable tag with no practice-report detail yet), say so plainly and give a concrete time/trigger to recheck (e.g. "final call comes 90 min before kickoff — check back then") rather than issuing a premature action alert.
+
 ## Notes
 - Always confirm current week and any lineup lock deadline before finalizing
 - If a decision is genuinely close, say so — don't manufacture false confidence
 - Update roster/waiver data via web search each time this runs; don't rely on memorized stats
+- **Don't conflate a past week's pre-game projection with this week's forward-looking projection.** Waiver/trending screens often show last week's "projected vs. actual" side by side (e.g. a "PROJ" column next to a "SCORE" column tied to an already-completed game) — verify which week a projection number actually belongs to before using it to justify a swap. When unsure, ask the user to check the app's per-player "Projections" tab for the current week's number rather than guessing from a list view.
+- When the user shares a live app screenshot, prefer those real numbers/news over general web-search priors — the app reflects their specific league's scoring and current roster state.
