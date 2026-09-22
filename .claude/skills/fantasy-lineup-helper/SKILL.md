@@ -27,6 +27,7 @@ For each player who could plausibly start, use web search to gather:
 - Recent performance trend (last 3-4 games, not just season average)
 - This week's matchup: opposing defense rank vs. that position
 - **Snap share / target share trend, and injuries to teammates at the same position** — treat a real role change (e.g., snap % jumping game-over-game, a target-competitor landing on IR or getting hurt mid-game) as strong signal that can outweigh matchup tier or a season-long projection. A player whose role is visibly expanding right now is often a better bet than a proven matchup alone would suggest — don't just log usage as color, let it move the actual recommendation.
+- **Actual week-by-week fantasy points, checked against that week's projection — required whenever a player is being pitched on an "opportunity" or "role change" story (waiver adds especially).** Pull the real per-week scoring line (e.g. Week 1: X pts vs. Y proj, Week 2: X pts vs. Y proj), not just a season total or a single cherry-picked game. A snap-count or depth-chart story is not confirmation of value — plenty of players lead a team in snaps or even carries/targets while still scoring next to nothing (pass-pro reps, boundary routes, short-yardage work with no touchdown equity). If the actual points haven't shown up across multiple weeks despite a supposedly improving role, say so plainly and downgrade the recommendation rather than trusting the opportunity narrative alone. Conversely, a player quietly beating projection week over week is a real signal even without a flashy role story.
 - Weather forecast for game time (temp, wind, precipitation) — flag if severe, since heavy wind especially affects passing/kicking games
 - Home vs. away, and for away games, time zone shift the player's team is dealing with
 - Vegas game total / point spread for the matchup — a game expected to be high-scoring or where a team is trailing big tends to shift volume (e.g., trailing teams pass more)
@@ -51,7 +52,7 @@ For each start/sit decision:
 4. **Confidence level** (high/medium/low — flag close calls honestly rather than sounding certain about a toss-up)
 
 Then:
-- **Waiver wire suggestions**: 2-4 available players worth considering, with brief reasoning, prioritized by immediate impact this week
+- **Waiver wire suggestions**: 2-4 available players worth considering, with brief reasoning, prioritized by immediate impact this week. For each one, include their actual week-by-week fantasy points so far this season (not just a role/opportunity story) — if a candidate's real scoring is flat or bad despite a good-sounding situation, either drop them from the list or flag the mismatch explicitly rather than recommending on narrative alone.
 
 ### Flagging an actionable change
 Whenever a recommendation requires the user to actually do something (swap a starter, submit a waiver claim, act before a lock), never bury it inside a paragraph of reasoning. Lead with an unmissable block, then explain briefly after:
@@ -69,3 +70,4 @@ If the situation is still developing (e.g. a questionable tag with no practice-r
 - Update roster/waiver data via web search each time this runs; don't rely on memorized stats
 - **Don't conflate a past week's pre-game projection with this week's forward-looking projection.** Waiver/trending screens often show last week's "projected vs. actual" side by side (e.g. a "PROJ" column next to a "SCORE" column tied to an already-completed game) — verify which week a projection number actually belongs to before using it to justify a swap. When unsure, ask the user to check the app's per-player "Projections" tab for the current week's number rather than guessing from a list view.
 - When the user shares a live app screenshot, prefer those real numbers/news over general web-search priors — the app reflects their specific league's scoring and current roster state.
+- **Snap count and "opportunity" narratives can be misleading on their own** — a player can lead a backfield in snaps while another teammate quietly leads in actual carries/production, or a player can be tagged the beneficiary of an injury ahead of him without the box score ever showing up. Always sanity-check a role story against real week-by-week points before recommending a swap or add on it.
