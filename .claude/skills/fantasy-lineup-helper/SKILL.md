@@ -40,6 +40,11 @@ Before an opposing-team injury changes a D/ST recommendation, check where that d
 - If the injury is in a unit that isn't where the defense's recent points actually came from, don't let it override the call — note it, then move on.
 - Also weight the most recent 1-2 games' production over the season average when they conflict (consistent with the general recency rule above) — a defense trending up or down matters more than its full-season rate.
 
+**QB-dependent teammate pairing: track which backup is in before trusting a close TE/pass-catcher projection**
+Some pass-catchers (especially TEs) have outsized chemistry-dependence on one specific starting QB — their value doesn't just dip generically when a backup plays, it can collapse well past what the week's raw projection shows. When the primary starter is out, treat that as a standalone red flag on that specific player rather than letting a narrow season-average or projection gap settle a start/sit call against a less QB-dependent alternative.
+- Standing case in this league: **Kincaid when Lamar Jackson is out, Andrews when Lamar is playing.** This is not a permanent ranking swap — once Lamar is back and healthy, Andrews' track record with him is strong enough to reclaim the start. Re-check Lamar's status each week before defaulting to either side.
+- The general pattern applies beyond this specific pair: if a player's production has historically tracked one specific QB more than the position typically does, treat "is that QB playing" as its own checkbox alongside matchup and recent form — don't let it get absorbed into a generic backup-QB discount that undersells the effect.
+
 **Contextual factors (mention as color, don't let these override the primary factors alone):**
 - Player physical profile (height/weight/speed) vs. positional average, if notably different
 - Team/player narratives in the news: trades, rivalry games, "revenge game" storylines, broadcaster commentary — include if genuinely notable, but label clearly as narrative/motivational context rather than a statistical signal
